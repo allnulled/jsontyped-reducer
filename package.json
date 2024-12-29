@@ -1,0 +1,13 @@
+{
+  "name": "@allnulled/jsontyped-reducer",
+  "version": "1.0.0",
+  "description": "Reduces JSON $type property with customizable reducers",
+  "main": "jsontyped-reducer.js",
+  "scripts": {
+    "build": "npx htmlbundler --list bundlelist.js --output dist/jsontyped-reducer.bundled.js --id false --module false --wrap false && cp jsontyped-reducer.js dist/jsontyped-reducer.unbundled.js",
+    "test": "npx mocha test.js"
+  },
+  "keywords": ["json", "extension", "jsontyped"],
+  "author": "allnulled",
+  "license": "WTFPL"
+}
