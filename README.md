@@ -1,6 +1,6 @@
 # jsontyped-reducer
 
-Reduces JSON $type property with customizable reducers.
+Reduces recusively JSON objects with $type property with customizable reducers. Uses JSON.stringify.
 
 ## Installation
 
