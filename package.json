@@ -1,7 +1,7 @@
 {
   "name": "@allnulled/jsontyped-reducer",
   "version": "1.0.1",
-  "description": "Reduces recusively JSON objects with $type property with customizable reducers. Uses JSON.stringify.",
+  "description": "Reduces recusively JSON objects with $type property through customizable reducers. Uses JSON.stringify.",
   "main": "jsontyped-reducer.js",
   "scripts": {
     "build": "npx htmlbundler --list bundlelist.js --output dist/jsontyped-reducer.bundled.js --id false --module false --wrap false && cp jsontyped-reducer.js dist/jsontyped-reducer.unbundled.js",
